@@ -1,0 +1,33 @@
+Put your answers to the knowledge quiz here.
+
+
+1. B
+2. B
+3. A
+4. A
+5. B
+6. A
+7. D
+8. B
+9. A foriegn key value used must reference to a primary key in the parent/base table. Instance of breaking refrential integrity is removing a row which has a value referenced to by a foriegn key in another table.
+
+10. In Data Modeling, any data should be present only in one place and should relate directly to the key. While repeating dependencies or having multiple data for same category in columns, normalization has to be done.
+
+11. Dish
+		>Dish_id ~~~~ Primary key 
+		> Name
+		> Description
+		>Menu_id ~~~~~ Foriegn key 
+
+
+	Cost 
+		>Dish_id ~~~~~ foriegn key
+		>Menu_id ~~~~~ Foriegn key 
+		>cost
+
+
+	Menu
+		>Menu_id ~~~~~~ Primary key
+		> Breakfast
+		> Lunch
+		> Dinner
